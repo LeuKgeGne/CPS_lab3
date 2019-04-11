@@ -10,8 +10,4 @@ public class Body {
     public void setOrgans(BodyOrgan organ) {
         bodyOrgans.add(organ);
     }
-
-    public Stomach getBrain() {
-        return (Stomach)bodyOrgans.get(Constants.BRAIN_POS_IN_ARR);
-    }
 }

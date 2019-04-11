@@ -76,4 +76,10 @@ public final class Constants {
     //Array's sizes
     public static final byte BODY_ORGANS_AMOUNT = 1;
     public static final byte HEAD_ORGANS_AMOUNT = 4;
+
+    //Name of cases
+    public static final byte EATING_CASE = 1;
+    public static final byte SPEAKING_CASE = 2;
+    public static final byte SCRATCHING_CASE = 3;
+    public static final byte SNEEZING_CASE = 4;
 }

@@ -12,6 +12,6 @@ public class Stomach extends BodyOrgan {
         remakeFood();
     }
     public void remakeFood() {
-
+        //Remaking is here
     }
 }

@@ -15,30 +15,18 @@ public class Brain extends HeadOrgan{
         Nose nose = (Nose)head.getHeadOrgan(Constants.NOSE_POS_IN_ARR);
 
         switch (changer) {
-            case 1: {
+            case Constants.EATING_CASE: {
                 mouth.eat();
             } break;
-            case 2: {
+            case Constants.SPEAKING_CASE: {
                 mouth.speak();
             } break;
-            case 3: {
+            case Constants.SCRATCHING_CASE: {
                 nose.scratch();
             } break;
-            case 4: {
+            case Constants.SNEEZING_CASE: {
                 nose.sneeze();
             } break;
-        }
-    }
-
-    public static class OrganOfHead {
-        private double weightOfOrgan;
-
-        public void setWeightOfOrgan(double weightOfOrgan) {
-            this.weightOfOrgan = weightOfOrgan;
-        }
-
-        public double getWeightOfOrgan() {
-            return weightOfOrgan;
         }
     }
 }

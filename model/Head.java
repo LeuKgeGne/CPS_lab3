@@ -21,16 +21,4 @@ public class Head {
     public Brain getBrain() {
         return (Brain)organs.get(Constants.BRAIN_POS_IN_ARR);
     }
-
-    public Mouth getMouth() {
-        return (Mouth)organs.get(Constants.MOUTH_POS_IN_ARR);
-    }
-
-    public Nose getNose() {
-        return (Nose)organs.get(Constants.NOSE_POS_IN_ARR);
-    }
-
-    public Ear getEar() {
-        return (Ear)organs.get(Constants.EAR_POS_IN_ARR);
-    }
 }

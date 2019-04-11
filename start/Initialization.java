@@ -1,16 +1,11 @@
 package epam.bsuir.oop.start;
 
-import epam.bsuir.oop.manipulations.ButtonManipulations;
 import epam.bsuir.oop.model.Body;
 import epam.bsuir.oop.model.Head;
-import javafx.event.EventHandler;
 import javafx.geometry.Insets;
-import javafx.scene.Scene;
-import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.GridPane;
 
 public class Initialization {
@@ -28,8 +23,6 @@ public class Initialization {
     public Button buttonOfSpeaking = new Button(Constants.SPEAK_BTN_TEXT);
     public Button buttonOfSneezing = new Button(Constants.SNEEZE_BTN_TEXT);
     public Button buttonOfScratching = new Button(Constants.SCRATCH_BTN_TEXT);
-
-    //public Button btnOfDigest = new Button(Constants);
 
     //The an image & a path to the image
     private Image image = new Image("file:C:\\Users\\Admin\\IdeaProjects\\brain.jpg",

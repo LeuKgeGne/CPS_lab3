@@ -11,14 +11,6 @@ public class Mouth extends HeadOrgan{
         this.sizeOfMouth = _sizeOfMouse;
     }
 
-    public void setSizeOfMouth(String _sizeOfMouth) {
-        this.sizeOfMouth = _sizeOfMouth;
-    }
-
-    public String getSizeOfMouth() {
-        return sizeOfMouth;
-    }
-
     public void eat() {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle(Constants.EAT_TITLE);
